@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nethack42/go-sftp/sshfxp"
+	"github.com/sirupsen/logrus"
 )
 
 type Client struct {

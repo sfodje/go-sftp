@@ -11,11 +11,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/alecthomas/kingpin"
 	"github.com/chzyer/readline"
 	"github.com/google/shlex"
 	"github.com/nethack42/go-sftp"
+	"github.com/sirupsen/logrus"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nethack42/go-sftp/sshfxp"
+	"github.com/sirupsen/logrus"
 )
 
 type FileReader struct {
